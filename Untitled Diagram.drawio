@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-07-11T02:51:48.680Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="17.2.2" etag="JD4_dxb_ie3LeIfdLQeh" type="github"><diagram id="Iub0_FKmj7lwjKolyuTS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-11T03:09:22.766Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="fC__p9wM_7Bs9_SXTJfs" version="17.2.2" type="github">
+  <diagram id="Iub0_FKmj7lwjKolyuTS" name="Page-1">
+    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jzqj80nje5uZuj89FIrJ-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCE5FF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="650" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-2" value="业务方" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#E6FFCC;shadow=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-3" value="标注接口" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#E6FFCC;shadow=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzqj80nje5uZuj89FIrJ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="" id="jzqj80nje5uZuj89FIrJ-8">
+          <mxCell style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.diag_round_rect;dx=6;shadow=0;strokeColor=#E6FFCC;strokeWidth=3;fillColor=#CCCCCC;" vertex="1" parent="1">
+            <mxGeometry x="501" y="270" width="190" height="230" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-6" value="服务A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#E6FFCC;shadow=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="540" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-7" value="服务B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7EA6E0;strokeColor=#E6FFCC;shadow=0;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="540" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-9" value="服务提供方" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-10" value="方法调用&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="345" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.021;entryY=0.43;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jzqj80nje5uZuj89FIrJ-3" target="jzqj80nje5uZuj89FIrJ-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-13" value="服务发现加载&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jzqj80nje5uZuj89FIrJ-14" value="SPI机制&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
