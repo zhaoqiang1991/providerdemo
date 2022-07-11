@@ -1,0 +1,27 @@
+# Android
+local.properties
+*.DS_Store
+**/captures
+
+# Gradle
+**/.gradle
+**/.settings
+**/build
+
+# Intellij
+*.ipr
+*.iml
+*.iws
+**/.idea
+
+*.iml
+*.idea
+*.bin
+gradlew
+/build/
+*.bat
+/app/build/
+/app/schemas/
+/app/proguard/class_files.txt
+app/proguard/mapping.txt
+app/proguard/seeds.txt
