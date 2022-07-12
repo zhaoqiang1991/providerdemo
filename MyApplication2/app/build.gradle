@@ -36,6 +36,8 @@ dependencies {
     implementation project(path: ':home_page_module_api')
     implementation project(path: ':login_module')
     implementation project(path: ':login_module_api')
+    implementation project(path: ':order_module_api')
+    implementation project(path: ':order_module')
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
