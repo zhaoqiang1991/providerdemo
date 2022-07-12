@@ -8,5 +8,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "My Application"
 include ':app'
+
 include ':home_page_module'
 include ':home_page_module_api'
+include ':login_module'
+include ':login_module_api'
